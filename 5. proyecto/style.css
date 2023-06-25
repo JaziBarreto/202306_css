@@ -1,0 +1,42 @@
+h1 {
+    color: cyan;
+    font-size: 46px;
+    background-color: black;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+body {
+    height: 100vh;
+}
+.highlight {
+    color: white;
+}
+
+h2 {
+    background-color: rgb(83, 1, 159);
+    text-align: center;
+    color:aliceblue;
+    margin: 5px;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+h3 {
+    background-color: rgb(115, 183, 247);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: large;
+    text-decoration: underline;
+    font-weight: lighter;
+}

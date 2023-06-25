@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <style>
+        .name {
+            font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+            background-image: linear-gradient(to right, #2E8A99, #ee0c72);
+            -webkit-background-clip: text; /* Chrome y Safari */
+            background-clip: text; /* Estándar */
+            -webkit-text-fill-color: transparent;
+        }
+        .photo{
+            width: 185px; /* Ancho de la imagen */
+            height: 195px; /* Altura de la imagen */
+            border-radius: 10px; /* Radio del borde */
+        }
+        .logo{
+            width: 24px;
+        }
+        .tableStyle{
+        border-collapse: collapse; /* Combina los bordes de las celdas */
+        width: 100%; /* Ancho de la tabla */
+        font-family: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+        table-layout: fixed;
+        }
+        tr, td, th {        
+        border: 1px solid black; /* Establece un borde de 1px sólido en las celdas */
+        padding: 8px; /* Espaciado interno de las celdas */
+        text-align: center; /* Alineación del contenido de las celdas */
+        }
+        .code{
+            width: 50px;
+            border: 2px solid black; /* Borde de 2 píxeles sólido */
+            border-radius: 10px; /* Radio de 10 píxeles para crear un borde cuadrado */
+        }
+        .message-container{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="name"><em>María Jazmín Barreto</em></h1>
+    <img src="mjbp.jpeg" alt="profile picture" class="photo">
+    <div>
+        <img src="github.png" alt="git hub logo" class="logo">
+            <a href="https://github.com/JaziBarreto">My GitHub</a>
+        <img src="email.png" alt="email logo" class="logo">
+            <a href="mailto:jazminbarreto19@gmail.com">My e-mail</a>
+    </div>
+    <h3 class="name"> Technologies</h3>
+    <table class="tableStyle">
+        <tr>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>Javascript</th>
+            <th>Database</th>
+            <th>Concepts</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>Django</td>
+            <td>Express</td>
+            <td>MySQL</td>
+            <td>AJAX</td>
+        </tr>
+        <tr>
+            <td>CSS3</td>
+            <td>Flask</td>
+            <td>Moongose</td>
+            <td>MoongoDB</td>
+            <td>OPP</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+            <td>Unittest</td>
+            <td>React</td>
+            <td> </td>
+            <td>Rest</td>
+        </tr>
+    </table>
+    <h3 class="name"> Social Snakes</h3>
+        <img src="codigo.png" alt="codigo logo" class="code">
+    <ul>
+        <li><em>Social Media App made in Python - code I deployed</em></li>
+    </ul>
+    <h3 class="name">Contact me </h3>
+        <label>Name:  </label>
+            <input type="text" name="name" placeholder="Your name..." >
+        <label>Email: </label>
+            <input type="text" name="email" placeholder="Your email..." >
+        <div class="message-container">
+            <label>Message:</label>
+            <textarea name="message" cols="20" rows="3"></textarea>
+        </div>
+        <input type="submit" value="Send Message" >
+</body>
+</html>
