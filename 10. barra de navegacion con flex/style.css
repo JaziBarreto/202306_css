@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+.nav-title, .nav-links a, .btn {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(128, 128, 128);
+    color:white;
+
+}
+
+.nav-links li {
+    margin-right: 20px;
+    list-style: none;  /*para eliminar las vinhetas*/
+    font-size: small;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    font-weight: bold;
+}
+
+.nav-links{
+    display:flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 10px; /*Agrega espacio interno al botón para darle un tamaño adecuado*/
+    background-color: rgba(81, 209, 147, 0.895); /*Establece el color de fondo del botón.*/
+    color: white; /*Establece el color del texto del botón.*/
+    font-size: 15px;/*Establece el tamaño de fuente del texto del botón.*/
+    cursor: pointer; /*Cambia el cursor al pasar por encima del botón para indicar que es interactivo.*/
+    box-shadow: 5px 5px 5px black;
+}
+.btn:hover {
+    background-color: rgb(128, 128, 128); /*Define los estilos que se aplicarán cuando se pase el cursor por encima del botón*/
+}
