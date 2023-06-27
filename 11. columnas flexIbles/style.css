@@ -1,4 +1,4 @@
-.row {
+/* .row {
     display: flex;
 }
 .col {
@@ -19,4 +19,23 @@
     padding: 20px;
     padding: 20px;
     margin: 10px;
+} */
+SOLUCION DE LA PLATAFORMA
+.row {
+    display: flex;
+}
+
+.col, .col-2, .col-3 {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
 }
