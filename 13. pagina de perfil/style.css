@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2px;
+}
+
+.container { /*father*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+/* PARA HEAD*/
+#principal-head {
+    background-color: rgb(5, 5, 5);
+}
+.nav {
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    position: relative;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    margin-left: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    list-style: none;  /*para eliminar las vinhetas*/
+    font-size: small;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    font-weight: bold;
+}
+
+.nav-links{
+    display:flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 10px; /*Agrega espacio interno al botón para darle un tamaño adecuado*/
+    background-color: rgba(31, 167, 156, 0.895); /*Establece el color de fondo del botón.*/
+    color: white; /*Establece el color del texto del botón.*/
+    font-size: 12px;/*Establece el tamaño de fuente del texto del botón.*/
+    cursor: pointer; /*Cambia el cursor al pasar por encima del botón para indicar que es interactivo.*/
+    box-shadow: 5px 5px 5px black;
+    border: none; /*PARA ELIMINAR EL BORDER QUE TIENE POR DEFAULT UN BUTTON */
+}
+.btn:hover {
+    background-color: rgb(128, 128, 128); /*Define los estilos que se aplicarán cuando se pase el cursor por encima del botón*/
+}
+
+/* TERMINA HEAD*/
+
+/* columns */
+.columnsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 50px auto 0px;
+}
+
+.profile-box{
+    border: 3px solid gray;
+}
+
+.box-header{
+    background-color: #1B6B93;
+    height: 85px;
+    position: relative;
+}
+
+.box-header img {
+    border-radius: 50%;
+    border: 2px solid gray;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 100px;
+}
+
+.box-body {
+    padding: 70px 170px 20px 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.location img{
+    width: 15px;
+}
+
+.location p {
+    margin-left: 5px;
+}
+
+.edit-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.edit-profile a {
+    display: flex;
+    align-items: center;
+}
+
+.edit-profile a img {
+    width: 15px;
+}
+
+.edit-profile a p {
+    margin-left: 5px;
+}
+
+.secondColumn{
+    width: 230px;
+}
+
+.connection-header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    padding: 15px 20px;
+}
+
+.connection-header div {
+    margin-right: 5px;
+    background-color: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connection-header h2 {
+    font-size: 15px;
+}
+
+.request {
+    border: 3px solid gray;
+    padding: 20px;
+}
+
+.request div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.request img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.request p{
+    margin-left: 10px;
+}
+
+.request .icons img {
+    margin-left: 5px;
+}
+
+.request-connection{
+    flex-direction: column;
+    padding: 12px;
+    align-items: flex-start;
+}
+.your-connection {
+    border: 3px solid gray;
+    margin-top: 28px;
+}
+
+.request-connection div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.your-connection img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.your-connection p{
+    margin-left: 10px;
+}
+
+.your-connection .icons img {
+    margin-left: 5px;
+}
+
+.view-more {
+    border-top: 3px solid gray;
+    padding: 15px 20px;
+}
