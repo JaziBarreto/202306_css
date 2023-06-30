@@ -1,0 +1,76 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+  background-image: linear-gradient(to right, #2D4356, #435B66);
+}
+
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+  text-shadow:
+  -1px -1px 0 #F2EAD3, /* Borde superior izquierdo */
+  1px -1px 0 #F5F5F5, /* Borde superior derecho */
+  -1px 1px 0 #DFD7BF, /* Borde inferior izquierdo */
+  1px 1px 0 #3F2305; /* Borde inferior derecho */
+}
+
+.btn {
+  border-radius: 50%;
+  padding: 1%;
+  margin-top: 15px;
+  background-color: #DFD7BF;
+  color: #3F2305;
+  font-size: medium;
+  font-style: italic;
+  cursor: pointer; 
+  box-shadow: 5px 5px 5px black;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #3F2305;
+  color: #DFD7BF;
+}
+
+.row{
+  margin: 20px;
+  width: auto;
+  border: 2px solid #3F2305;
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  border-right: 1px solid #3F2305;
+  margin: 4px;
+}
+
+.nav {
+background:#A76F6F;
+border: none;
+margin: 20px;
+width: auto;
+position: relative;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
